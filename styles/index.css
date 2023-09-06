@@ -1,0 +1,105 @@
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-size: large;
+    color: chocolate;
+    font-style: oblique;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
+
+
+#idselector {
+    font-size: xx-large;
+    color: blue;
+
+}
+
+.texttype1 {
+    color: blue;
+    background-color: aliceblue;
+}
+
+.texttype2 {
+    color: blue;
+    background-color: burlywood;
+}
+
+.texttype3 {
+    color: black;
+    text-align: center;
+}
+
+.texttype4 {
+    color: rgb(54, 48, 48);
+    background-color: aquamarine;
+}
+
+.texttype5 {
+    color: red;
+    background-color: lightblue;
+}
+
+.texttype6 {
+    font-size: xx-large;
+     color: black;
+}
+
+a {
+    margin-right: 25px;
+    background-color: brown;
+    color: white;
+
+}
+
+h3::selection {
+    color: blueviolet;
+    background: yellow;
+}
+
+h3:hover {
+    color: hotpink
+}
+
+.especial {
+    color: yellowgreen;
+    background-color: brown;
+    border: 2px solid black
+}
+
+.posicion {
+    position: fixed;
+    top: 50px;  /*you can use negative number to change the position the other way*/
+    right: 130px; /* for the position called absolute to work the content need to be enclosed in a div with a position assigned. the absolute will not work on itself*/
+    /* the absolute will change the position of the selected item and rearranged everything else so it doesn't look like something is missing */
+    
+    
+}
+
+
+
+/* Prioridad de Selectores en orden 
+
+-selector universal (*)
+-selector elemento (h1, h2, etc)
+-selector class
+-selector id
+-important
+*/
+

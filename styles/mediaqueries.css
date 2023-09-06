@@ -1,0 +1,45 @@
+div {
+    width: 500px;
+    background-color: aquamarine;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    div {
+        background-color:brown;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+p {
+    font-size: 24px;
+}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+p{
+    font-size: 35px;
+}
+}
+
+
+
+/* @media only screen and (min-width: 769px) and (max-width: 1023px) {
+    div {
+        background-color:blueviolet;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    div {
+        background-color:blue;
+    }
+} */
+
+
+
+
+
+
+
+
+

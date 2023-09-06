@@ -1,0 +1,35 @@
+h2{ text-align: center;
+}
+
+.contenedor{
+padding: 20px 20px 20px 20px;
+padding: 5px;
+margin: 20px 20px 20px 20px;
+border: 5px solid black;
+}
+
+.propiedades-flexbox-padre{
+display: flex;
+flex-direction: row; 
+/* flex-direction: column-reverse;  */
+flex-wrap: wrap;
+/* el flex-flow se usa para darle el display y direccion en una sola linea. ejemplo (flex-flow: row wrap;) */
+
+/* justify-content: space-between; */
+justify-content: space-evenly;
+
+
+
+}
+
+.card {
+    min-width: 10px;
+    margin: 10px;
+
+
+
+
+
+.propiedades-flexbox-hijos{
+
+}

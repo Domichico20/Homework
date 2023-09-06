@@ -1,0 +1,89 @@
+.center {
+    align-items: center;
+    display block;
+    margin: 0 auto;
+}
+
+.contenedor {
+    padding: 5px padding: 50px;
+    border: 3px solid black;
+
+}
+
+.propiedades-flexbox-padre {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.contenedor img {
+    width: 100%;
+    height: auto;
+}
+
+div {
+    width: 590px;
+    background-color: aquamarine;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+    div {
+        background-color: blueviolet;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1023px) {
+    div {
+    background-color:green;
+}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    div {
+    background-color:red;
+}
+}
+
+#animated-circle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:blue;
+    animation: moveCircle 3s linear infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes moveCircle {
+    0% {
+        left: 0;
+        background-color: red;
+    }
+    10% {
+        left: 10%;
+        background-color: blue;
+    }
+    20% {
+        left: 20%;
+        background-color: burlywood;
+    }
+    30% {
+        left: 30%;
+        background-color: greenyellow;
+    }
+    50% {
+        left: 50%;
+        background-color: brown;
+    }
+    75% {
+        left: 75%;
+        background-color: hotpink;
+    }
+    100% {
+        left: calc(100% - 50px);
+        background-color: orange;
+    }
+}

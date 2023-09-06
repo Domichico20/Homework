@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabla</title>
+
+
+</head>
+<body>
+    <caption>Ejemplo de tabla</caption>
+    <table border="1" cellpadding="20">
+        <thead>
+            <tr>
+                <th>Pais</th> <!--porque afecta el colspan aqui-->
+                <th>Capital</th>  
+                <th>Moneda</th>   
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Reino de Espana</td>
+                <td colspan="2">Madrid</td> <!-- esta parte del codigo no me funciona "td colspan="2" align="right" valign="bottom">Madrid</td>-->
+            </tr>
+            <tr>
+                <td>Estados Unidos Mexicanos</td>
+                <td>ciudad de mexico</td>
+                <td>peso</td>
+            </tr>
+            <tr>
+                <td style="background-color: red">Republica Dominicana</td> <!--esto es un machetazo el html se vuelve muy largo. es mejor aplicarlo como styles. -->
+                <td>Santo Domingo</td>
+                <td>Peso Dominicano</td> 
+            </tr>
+            <tr rowspan="3">
+            </tr>
+           <td rowspan="3" colspan="2">No hay mas paises</td> <!--rowspan no me funciona-->
+
+        </tbody>
+ </table>
+    
+</body>
+</html>
