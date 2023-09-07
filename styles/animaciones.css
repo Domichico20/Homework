@@ -2,9 +2,6 @@ div {
     width: 100px;
     height: 100px;
     background-color: #ec0c0c;
-
-
-
     position: relative;
     animation-name: animacion;
     animation-duration 10s;
